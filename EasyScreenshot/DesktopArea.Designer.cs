@@ -78,6 +78,7 @@
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "DesktopArea";
             this.Text = "DesktopArea";
+            this.Load += new System.EventHandler(this.DesktopArea_Load);
             this.ResumeLayout(false);
 
         }

@@ -83,7 +83,7 @@ namespace EasyScreenshot
         public Bitmap CropImage(Bitmap bitmap, Rectangle rectangle)
         {
             Bitmap cropBmp = new Bitmap(rectangle.Width, rectangle.Height);
-            Graphics graphics2 = Graphics.FromImage(bitmap);
+            Graphics graphics2 = Graphics.FromImage(cropBmp);
             graphics2.DrawImage(bitmap, 0, 0, rectangle, GraphicsUnit.Pixel);
             return cropBmp;
         }

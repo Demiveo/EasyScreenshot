@@ -165,5 +165,10 @@ namespace EasyScreenshot
             }
             return base.ProcessCmdKey(ref message, key);
         }
+
+        private void DesktopArea_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
